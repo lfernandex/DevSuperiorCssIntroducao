@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+:root {
+  --black-gray: #cccccc;
+  --color-red: #f03c42;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-blue: #222374;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+a, a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 980px;
+  padding: 20px 120px 40px 120px;
+}
+
+.inicio{
+  background-color: var(--color-red);
+  color: var(--color-white);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inicio h1{
+  font-weight: 700;
+  font-size: 18px ;
+  margin-top: 20px;
+}
+
+
+.instagram-media{
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.instagram-media img{
+  margin: 10px;
+}
+
+.about {
+  background-color: var(--color-blue);
+}
+
+.conheça h1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--color-white);
+}
+
+.espaço {
+  background-color: var(--black-gray);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.espaço h2 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 20px;
+  color: var(--color-black);
+}
+
+.espaço p {
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;  
+  color: var(--color-black);
+}
+
+.mod h1{
+  color: var(--color-red);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.aulas {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.aulas h3 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.aulas p {
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+footer{
+  background-color: var(--color-black);
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+}
+
+.social-media{
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.social-media img{
+  margin: 10px;
+}
+
+.obs{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.endereço{
+  font-style: italic;
+}
